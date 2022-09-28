@@ -1302,3 +1302,37 @@
 2022-09-28 21:56:49,345 [INFO] IPUIPlugin:79 - create IPUIPlugin
 2022-09-28 21:56:49,346 [INFO] IPUIPlugin:79 - create IPUIPlugin
 2022-09-28 21:56:49,589 [INFO] OpenFileManager:327 - Restore cursor
+2022-09-29 01:40:46,517 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 226392192 Bytes (447741952)
+2022-09-29 01:40:48,806 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 237700568 Bytes (447741952)
+2022-09-29 01:40:53,555 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 317032720 Bytes (447741952)
+2022-09-29 01:40:54,120 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-29 01:40:54,121 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-29 01:40:54,121 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-29 01:40:54,123 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-29 01:40:54,433 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp_save
+2022-09-29 01:40:54,831 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp
+2022-09-29 01:40:54,946 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp_save
+2022-09-29 01:40:55,070 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp
+2022-09-29 01:40:55,093 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c_save
+2022-09-29 01:40:55,258 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c
+2022-09-29 01:40:55,271 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h_save
+2022-09-29 01:40:55,361 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h
+2022-09-29 01:40:55,542 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-29 01:40:55,652 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c
+2022-09-29 01:40:55,666 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp_save
+2022-09-29 01:40:55,729 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp
+2022-09-29 01:40:55,756 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-29 01:40:55,846 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-29 01:40:55,897 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h_save
+2022-09-29 01:40:55,997 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h
+2022-09-29 01:40:56,015 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c_save
+2022-09-29 01:40:56,151 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c
+2022-09-29 01:40:56,992 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 266mS.
+2022-09-29 01:40:57,005 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-29 01:40:57,331 [INFO] ConfigFileManager:1394 - The Die is : DIE412
+2022-09-29 01:40:57,367 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2022-09-29 01:40:57,382 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2022-09-29 01:40:57,395 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2022-09-29 01:40:59,620 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 2613mS.
+2022-09-29 01:40:59,621 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-29 01:40:59,626 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
