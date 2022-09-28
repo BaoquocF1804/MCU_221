@@ -90,63 +90,15 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int counter = 10;
-while (1)
+  while (1)
   {
-   /* Exercise 3*/
-   if( counter == 10) {
-   // Led 1 RED - 5s
-	   HAL_GPIO_WritePin ( LED_RED_GPIO_Port , LED_RED_Pin ,
-  GPIO_PIN_RESET ) ;
-	   HAL_GPIO_WritePin ( LED_YELLOW_GPIO_Port , LED_YELLOW_Pin ,
-  GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_GREEN_GPIO_Port , LED_GREEN_Pin ,
-  GPIO_PIN_SET ) ;
-   // Led 2 GREEN - 3s
-	   HAL_GPIO_WritePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ,
-  GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_YELLOW_2_GPIO_Port , LED_YELLOW_2_Pin , GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_GREEN_2_GPIO_Port , LED_GREEN_2_Pin , GPIO_PIN_RESET ) ;
-   }
-   if( counter == 7) {
-   // Led 2 YELLOW - 2
-	   HAL_GPIO_WritePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ,
-  GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_YELLOW_2_GPIO_Port ,
-  LED_YELLOW_2_Pin , GPIO_PIN_RESET ) ;
-	   HAL_GPIO_WritePin ( LED_GREEN_2_GPIO_Port ,
-  LED_GREEN_2_Pin , GPIO_PIN_SET ) ;
-   }
-   else if ( counter == 5) {
-   // Led 1 GREEN - 3s
-	   HAL_GPIO_WritePin ( LED_RED_GPIO_Port , LED_RED_Pin ,
-  GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_YELLOW_GPIO_Port , LED_YELLOW_Pin ,
-  GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_GREEN_GPIO_Port , LED_GREEN_Pin ,
-  GPIO_PIN_RESET ) ;
-   // Led 2 RED - 5s
-	   HAL_GPIO_WritePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ,
-  GPIO_PIN_RESET ) ;
-	   HAL_GPIO_WritePin ( LED_YELLOW_2_GPIO_Port ,
-  LED_YELLOW_2_Pin , GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_GREEN_2_GPIO_Port ,
-  LED_GREEN_2_Pin , GPIO_PIN_SET ) ;
-   }
-   else if ( counter == 2) {
-   // Led 1 YELLOW - 2s
-	   HAL_GPIO_WritePin ( LED_RED_GPIO_Port , LED_RED_Pin , GPIO_PIN_SET ) ;
-	   HAL_GPIO_WritePin ( LED_YELLOW_GPIO_Port , LED_YELLOW_Pin , GPIO_PIN_RESET ) ;
-	   HAL_GPIO_WritePin ( LED_GREEN_GPIO_Port , LED_GREEN_Pin , GPIO_PIN_SET ) ;
-   }
-   counter --;
-   if( counter == 0)
-   counter = 10;
-   HAL_Delay (1000) ;
-   /* END Exercise 3*/
-   }
+    /* USER CODE END WHILE */
 
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
 }
+
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -196,10 +148,13 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin|LED_YELLOW_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin|LED_YELLOW_Pin|LED_GREEN_Pin|LED_RED_2_Pin
+                          |LED_YELLOW_2_Pin|LED_GREEN_2_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : LED_RED_Pin LED_YELLOW_Pin */
-  GPIO_InitStruct.Pin = LED_RED_Pin|LED_YELLOW_Pin;
+  /*Configure GPIO pins : LED_RED_Pin LED_YELLOW_Pin LED_GREEN_Pin LED_RED_2_Pin
+                           LED_YELLOW_2_Pin LED_GREEN_2_Pin */
+  GPIO_InitStruct.Pin = LED_RED_Pin|LED_YELLOW_Pin|LED_GREEN_Pin|LED_RED_2_Pin
+                          |LED_YELLOW_2_Pin|LED_GREEN_2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
