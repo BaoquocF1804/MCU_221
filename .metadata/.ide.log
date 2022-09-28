@@ -784,3 +784,161 @@
 2022-09-28 16:36:48,755 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
 2022-09-28 16:36:48,757 [INFO] ApiDb:443 - Save user favorites file C:\Users\Bao Quoc/.stm32cubeide/favorites.mcus.txt: 1 item(s)
 2022-09-28 16:36:48,757 [INFO] ApiDb:447 - User favorites MCUs=[STM32F103C6T6A]
+2022-09-28 16:47:56,613 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 260525008 Bytes (947912704)
+2022-09-28 16:47:57,805 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 273822888 Bytes (947912704)
+2022-09-28 16:48:00,399 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 397554856 Bytes (947912704)
+2022-09-28 16:48:00,741 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-28 16:48:00,742 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-28 16:48:00,742 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-28 16:48:00,743 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-28 16:48:00,932 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp_save
+2022-09-28 16:48:01,024 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp
+2022-09-28 16:48:01,079 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp_save
+2022-09-28 16:48:01,157 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp
+2022-09-28 16:48:01,176 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c_save
+2022-09-28 16:48:01,243 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c
+2022-09-28 16:48:01,249 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h_save
+2022-09-28 16:48:01,309 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h
+2022-09-28 16:48:01,333 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-28 16:48:01,409 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c
+2022-09-28 16:48:01,413 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp_save
+2022-09-28 16:48:01,472 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp
+2022-09-28 16:48:01,501 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-28 16:48:01,642 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-28 16:48:01,689 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h_save
+2022-09-28 16:48:01,830 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h
+2022-09-28 16:48:01,843 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c_save
+2022-09-28 16:48:01,937 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c
+2022-09-28 16:48:02,475 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 205mS.
+2022-09-28 16:48:02,480 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-28 16:48:03,950 [INFO] ConfigFileManager:1394 - The Die is : DIE412
+2022-09-28 16:48:05,495 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 3015mS.
+2022-09-28 16:48:05,496 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 16:48:05,498 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 16:53:59,792 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_External_tool_project_builders_migration_2 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2022-09-28 16:53:59,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_Prompt_before_migrating_3 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2022-09-28 16:53:59,798 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_1 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2022-09-28 17:04:14,204 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 262929360 Bytes (947912704)
+2022-09-28 17:04:15,416 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 275622920 Bytes (947912704)
+2022-09-28 17:04:16,892 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 302162264 Bytes (947912704)
+2022-09-28 17:04:17,184 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-28 17:04:17,185 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-28 17:04:17,185 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-28 17:04:17,186 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-28 17:04:17,383 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp_save
+2022-09-28 17:04:17,473 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp
+2022-09-28 17:04:17,490 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp_save
+2022-09-28 17:04:17,589 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp
+2022-09-28 17:04:17,606 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c_save
+2022-09-28 17:04:17,696 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c
+2022-09-28 17:04:17,704 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h_save
+2022-09-28 17:04:17,774 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h
+2022-09-28 17:04:17,799 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-28 17:04:17,890 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c
+2022-09-28 17:04:17,895 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp_save
+2022-09-28 17:04:17,952 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp
+2022-09-28 17:04:17,969 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-28 17:04:18,091 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-28 17:04:18,120 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h_save
+2022-09-28 17:04:18,209 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h
+2022-09-28 17:04:18,220 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c_save
+2022-09-28 17:04:18,324 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c
+2022-09-28 17:04:18,852 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 189mS.
+2022-09-28 17:04:18,854 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-28 17:04:19,285 [INFO] ConfigFileManager:1394 - The Die is : DIE412
+2022-09-28 17:04:20,407 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1553mS.
+2022-09-28 17:04:20,409 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-28 17:04:20,411 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 17:18:41,684 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 329106136 Bytes (995098624)
+2022-09-28 17:18:43,371 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 341636840 Bytes (995098624)
+2022-09-28 17:18:59,592 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 408497752 Bytes (995098624)
+2022-09-28 17:18:59,789 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-28 17:18:59,790 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-28 17:18:59,790 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-28 17:18:59,792 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-28 17:18:59,990 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp_save
+2022-09-28 17:19:00,054 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp
+2022-09-28 17:19:00,074 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp_save
+2022-09-28 17:19:00,140 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp
+2022-09-28 17:19:00,158 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c_save
+2022-09-28 17:19:00,213 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c
+2022-09-28 17:19:00,221 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h_save
+2022-09-28 17:19:00,272 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h
+2022-09-28 17:19:00,298 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-28 17:19:00,364 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c
+2022-09-28 17:19:00,369 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp_save
+2022-09-28 17:19:00,416 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp
+2022-09-28 17:19:00,434 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-28 17:19:00,510 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-28 17:19:00,537 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h_save
+2022-09-28 17:19:00,613 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h
+2022-09-28 17:19:00,631 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c_save
+2022-09-28 17:19:00,752 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c
+2022-09-28 17:19:01,257 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 174mS.
+2022-09-28 17:19:01,259 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-28 17:19:01,442 [INFO] ConfigFileManager:1394 - The Die is : DIE412
+2022-09-28 17:19:02,745 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1486mS.
+2022-09-28 17:19:02,746 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 17:19:02,749 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 17:27:54,586 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 726031456 Bytes (1073741824)
+2022-09-28 17:27:57,769 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 278168336 Bytes (1073741824)
+2022-09-28 17:27:58,215 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 328009080 Bytes (1073741824)
+2022-09-28 17:27:58,451 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-28 17:27:58,452 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-28 17:27:58,452 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-28 17:27:58,453 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-28 17:27:58,654 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp_save
+2022-09-28 17:27:58,727 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp
+2022-09-28 17:27:58,748 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp_save
+2022-09-28 17:27:58,824 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp
+2022-09-28 17:27:58,844 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c_save
+2022-09-28 17:27:58,943 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c
+2022-09-28 17:27:58,950 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h_save
+2022-09-28 17:27:59,009 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h
+2022-09-28 17:27:59,044 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-28 17:27:59,124 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c
+2022-09-28 17:27:59,127 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp_save
+2022-09-28 17:27:59,178 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp
+2022-09-28 17:27:59,191 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-28 17:27:59,263 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-28 17:27:59,283 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h_save
+2022-09-28 17:27:59,358 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h
+2022-09-28 17:27:59,368 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c_save
+2022-09-28 17:27:59,462 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c
+2022-09-28 17:27:59,918 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 163mS.
+2022-09-28 17:27:59,920 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-28 17:28:00,102 [INFO] ConfigFileManager:1394 - The Die is : DIE412
+2022-09-28 17:28:01,276 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1356mS.
+2022-09-28 17:28:01,277 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 17:28:01,280 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 17:34:29,754 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 270028176 Bytes (1073741824)
+2022-09-28 17:34:31,283 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 280513936 Bytes (1073741824)
+2022-09-28 17:34:31,609 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 299378328 Bytes (1073741824)
+2022-09-28 17:34:31,829 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-28 17:34:31,829 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-28 17:34:31,829 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-28 17:34:31,830 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-28 17:34:32,010 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp_save
+2022-09-28 17:34:32,087 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\license.tmp
+2022-09-28 17:34:32,106 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp_save
+2022-09-28 17:34:32,173 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\gpio.tmp
+2022-09-28 17:34:32,187 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c_save
+2022-09-28 17:34:32,243 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_it.c
+2022-09-28 17:34:32,248 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h_save
+2022-09-28 17:34:32,296 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_it.h
+2022-09-28 17:34:32,320 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-28 17:34:32,408 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\stm32f1xx_hal_msp.c
+2022-09-28 17:34:32,413 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp_save
+2022-09-28 17:34:32,474 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\MXTmpFiles\system.tmp
+2022-09-28 17:34:32,491 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-28 17:34:32,584 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-28 17:34:32,606 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h_save
+2022-09-28 17:34:32,677 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Inc\main.h
+2022-09-28 17:34:32,687 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c_save
+2022-09-28 17:34:32,771 [INFO] CodeEngine:269 - Generated code: C:\Users\Bao Quoc\Documents\MCU_221\MCU_221\LAB1\Core\Src\main.c
+2022-09-28 17:34:33,230 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 153mS.
+2022-09-28 17:34:33,232 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-28 17:34:33,414 [INFO] ConfigFileManager:1394 - The Die is : DIE412
+2022-09-28 17:34:34,479 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1247mS.
+2022-09-28 17:34:34,480 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-28 17:34:34,483 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
