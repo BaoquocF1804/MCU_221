@@ -55,68 +55,81 @@ static void MX_GPIO_Init(void);
 /* USER CODE BEGIN 0 */
 void Led_Sequence ( int number ) {
  switch ( number ) {
- 	 case 0:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_12_Pin , 0) ;
- 		 break ;
- 	 case 1:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_12_Pin | LED_2_Pin |LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin , 0) ;
- 		 break ;
- 	 case 2:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_12_Pin |LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_2_Pin , 0) ;
- 		 break ;
- 	 case 3:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |LED_12_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_3_Pin , 0) ;
- 		 break ;
- 	 case 4:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |LED_3_Pin | LED_12_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_4_Pin , 0) ;
-  	  break ;
- 	 case 5:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |LED_3_Pin | LED_4_Pin | LED_12_Pin | LED_6_Pin | LED_7_Pin |
+ case 0:
+ HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
+ HAL_GPIO_WritePin ( GPIOA , LED_12_Pin , 0) ;
+ break ;
+ case 1:
+ HAL_GPIO_WritePin ( GPIOA , LED_12_Pin | LED_2_Pin |
+LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
+ HAL_GPIO_WritePin ( GPIOA , LED_1_Pin , 0) ;
+ break ;
+ case 2:
+ HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_12_Pin |
+LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
+ HAL_GPIO_WritePin ( GPIOA , LED_2_Pin , 0) ;
+ break ;
+  case 3:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_12_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
  LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_5_Pin , 0) ;
- 		 break ;
- 	 case 6:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_12_Pin | LED_7_Pin |
+  HAL_GPIO_WritePin ( GPIOA , LED_3_Pin , 0) ;
+  break ;
+  case 4:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_12_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
  LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_6_Pin , 0) ;
- 		 break ;
- 	 case 7:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_12_Pin |
+  HAL_GPIO_WritePin ( GPIOA , LED_4_Pin , 0) ;
+  break ;
+  case 5:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_12_Pin | LED_6_Pin | LED_7_Pin |
+ LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
+  HAL_GPIO_WritePin ( GPIOA , LED_5_Pin , 0) ;
+  break ;
+  case 6:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_12_Pin | LED_7_Pin |
+ LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
+  HAL_GPIO_WritePin ( GPIOA , LED_6_Pin , 0) ;
+  break ;
+  case 7:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_12_Pin |
  LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
   HAL_GPIO_WritePin ( GPIOA , LED_7_Pin , 0) ;
-  	  	  break ;
- 	 case 8:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+  break ;
+  case 8:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
  LED_12_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_8_Pin , 0) ;
- 		 break ;
- 	 case 9:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+  HAL_GPIO_WritePin ( GPIOA , LED_8_Pin , 0) ;
+  break ;
+  case 9:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
  LED_8_Pin | LED_12_Pin | LED_10_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_9_Pin , 0) ;
- 		 break ;
- 	 case 10:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+  HAL_GPIO_WritePin ( GPIOA , LED_9_Pin , 0) ;
+  break ;
+  case 10:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
  LED_8_Pin | LED_9_Pin | LED_12_Pin | LED_11_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_10_Pin , 0) ;
- 		 break ;
- 	 case 11:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
+  HAL_GPIO_WritePin ( GPIOA , LED_10_Pin , 0) ;
+  break ;
+ case 11:
+  HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin |
+ LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin |
  LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_12_Pin , 1) ;
- 		 HAL_GPIO_WritePin ( GPIOA , LED_11_Pin , 0) ;
- 		 break ;
+  HAL_GPIO_WritePin ( GPIOA , LED_11_Pin , 0) ;
+  break ;
   }
  }
 /* USER CODE END 0 */
-// Idea , WritePin SET (== 1) all led to turn off all 12 LEDS
-void clearAllClock () {
- HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin |LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin | LED_8_Pin |LED_9_Pin | LED_10_Pin | LED_11_Pin | LED_12_Pin , 1) ;
- }
 
 /**
   * @brief  The application entry point.
@@ -129,6 +142,7 @@ int main(void)
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
+
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
