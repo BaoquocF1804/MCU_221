@@ -154,50 +154,6 @@ void setNumberOnClock (int num ) {
 	 }
  }
 /* USER CODE END 0 */
-void clearAllClock () {
-	HAL_GPIO_WritePin ( GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin |LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin | LED_8_Pin |LED_9_Pin | LED_10_Pin | LED_11_Pin | LED_12_Pin , 1) ;
- }
-
-void clearNumberOnClock ( int num ){
- switch ( num ) {
- 	 case 0:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_12_Pin , 1) ;
- 		 break ;
- 	 case 1:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_1_Pin , 1) ;
- 		 break ;
- 	 case 2:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_2_Pin , 1) ;
- 		 break ;
- 	 case 3:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_3_Pin , 1) ;
- 		 break ;
- 	 case 4:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_4_Pin , 1) ;
- 		 break ;
- 	 case 5:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_5_Pin , 1) ;
- 		 break ;
- 	 case 6:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_6_Pin , 1) ;
- 		 break ;
- 	 case 7:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_7_Pin , 1) ;
- 		 break ;
- 	 case 8:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_8_Pin , 1) ;
- 		 break ;
- 	 case 9:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_9_Pin , 1) ;
- 		 break ;
- 	 case 10:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_10_Pin , 1) ;
- 		 break ;
- 	 case 11:
- 		 HAL_GPIO_WritePin ( GPIOA , LED_11_Pin , 1) ;
- 		 break ;
- 	 }
- }
 
 /**
   * @brief  The application entry point.
@@ -233,39 +189,12 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
 
-
-  clearAllClock () ;
-  int hour = 5 , minute = 2 , second = 0;
-  int count_second = 5;
- while (1)
- {
-  setNumberOnClock ( hour );
-  setNumberOnClock ( minute ) ;
-  setNumberOnClock ( second ) ;
-  count_second --;
-  HAL_Delay (1000) ;
-  if( count_second == 0) {
-	  count_second = 5;
-	  clearNumberOnClock ( second ) ;
-	  second ++;
-  if( second > 11) { //( Actually , second > 59
-	  second = 0;
-	  clearNumberOnClock ( minute ) ;
-	  minute ++;
-  if( minute > 11) {
-	  minute = 0;
-	  clearNumberOnClock ( hour );
-	  hour ++;
-  if( hour > 11)
-	  hour = 0;
-  	  	  	  }
-  	  	  }
-  	  }
-  }
-  /* USER CODE BEGIN 3 */
-
+    /* USER CODE BEGIN 3 */
+  /* USER CODE END 3 */
 }
 
 /**
